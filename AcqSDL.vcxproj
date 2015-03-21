@@ -72,7 +72,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Keyboard.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="View.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Keyboard.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="View.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
